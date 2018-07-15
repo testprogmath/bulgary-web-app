@@ -106,7 +106,7 @@ a, a:hover, a:active{
 .numbers{
 	float: right;
 }
-.numbers__item{
+.autorization_text{
 	font-size: 16px;
 	font-weight: 900;
 }
@@ -927,7 +927,18 @@ a, a:hover, a:active{
 
 /* ---- InnerPage Style (About) End---- */
 
+/* ---- InnerPage Style (404) ---- */
+.offer-404{
+	margin-top: 40px;
+	text-align: center;
+}
+.offer-404__bold{
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 60px;
+}
 
+/* ---- InnerPage Style (404) End ---- */
 
 /* ---- Style for JS form ---- */
 
