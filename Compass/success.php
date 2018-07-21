@@ -11,7 +11,8 @@ $radio = htmlspecialchars($_POST["radio"]);
 
 $refferer = getenv('HTTP_REFERER');
 $date=date("d.m.y"); // число.месяц.год  
-$time=date("H:i"); // часы:минуты:секунды 
+$time=date("H:i"); // часы:минуты:секунды
+/*
 $myemail = "funfot@ya.ru";
 
 $tema = "Тема письма админу";
@@ -46,5 +47,5 @@ fwrite($f," </tr>");
 fwrite($f,"\n ");    
 fclose($f);
 
-
+*/
 ?>

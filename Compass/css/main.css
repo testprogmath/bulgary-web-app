@@ -938,6 +938,16 @@ a, a:hover, a:active{
 	margin-bottom: 60px;
 }
 
+.offer-404_desc{
+	font-size: 35px;
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
 /* ---- InnerPage Style (404) End ---- */
 
 /* ---- Style for JS form ---- */
