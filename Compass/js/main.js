@@ -79,7 +79,8 @@ $(function() {
                 },
                 email:{
                     required:true,
-                    email:true
+                    regex: '^(([^<>()\\[\\]\\\\.,;:\\s@"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@"]+)*)|(".+"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$'
+                    //email:true
                 }
             },
             messages:{
@@ -93,7 +94,7 @@ $(function() {
                 },
                 email:{
                     required:'Поле обязательно для заполнения',
-                    email:'Неверный формат E-mail'
+                    regex:'Неверный формат E-mail'
                 }
             },
             submitHandler: function (form) {
