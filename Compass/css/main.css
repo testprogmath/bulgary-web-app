@@ -602,7 +602,7 @@ a, a:hover, a:active{
     padding: 25px 35px 22px 35px;
     width: 100%;
     font-size: 13px;
-    text-transform: uppercase;
+    /*text-transform: uppercase; */
     background: #30c2ff;
 }
 
