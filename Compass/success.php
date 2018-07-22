@@ -20,14 +20,14 @@ E-mail: $email<br>
 Радио: $radio<br>
 Источник (ссылка): $refferer
 ";
-mail($myemail, $tema, $message_to_myemail, "From: Sitename <reg@wayup.in> \r\n Reply-To: WAYUP \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" );
+/*mail($myemail, $tema, $message_to_myemail, "From: Sitename <reg@wayup.in> \r\n Reply-To: WAYUP \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" );
 $tema = "Тема письма клиенту";
 $message_to_myemail = "
 Текст письма<br>
 Файл: <a href='http://numbers.andrewgavrilov.me/files/ripple.zip' download>Название файла</a>
 ";
 $myemail = $email;
-mail($myemail, $tema, $message_to_myemail, "From: WAYUP <reg@wayup.in> \r\n Reply-To: WAYUP \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" );
+mail($myemail, $tema, $message_to_myemail, "From: WAYUP <reg@wayup.in> \r\n Reply-To: WAYUP \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" ); */
 $f = fopen("leads.xls", "a+");
 fwrite($f," <tr>");
 fwrite($f," <td>$email</td> <td>$name</td> <td>$tel</td>   <td>$date / $time</td>");
